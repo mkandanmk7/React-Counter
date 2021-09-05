@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ccc;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* height: 200px; */
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  background: #acd;
+  padding: 20px;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerContainer > div {
+  margin: 20px;
+}
+.count {
+  font-size: 2.5rem;
+  margin: 20px;
+}
+#counterValue {
+  padding: 5px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
