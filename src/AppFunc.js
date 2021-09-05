@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-// import Func from "./Func";
 
 class AppFunc extends React.Component {
   constructor() {
