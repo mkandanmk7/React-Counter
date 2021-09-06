@@ -16,7 +16,7 @@ class AppFunc extends React.Component {
   // };
   increment() {
     this.setState((prevState) => {
-      return { count: prevState.counter + 1 };
+      return { counter: prevState.counter + 1 };
     });
   }
   componentDidUpdate() {
@@ -25,6 +25,7 @@ class AppFunc extends React.Component {
   decrement = () => {
     if (this.state.counter > 0) {
       this.setState((prevState) => {
+        console.log(prevState);
         return { counter: prevState.counter - 1 };
       });
     }
