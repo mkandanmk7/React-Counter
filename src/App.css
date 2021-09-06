@@ -9,13 +9,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #ccc;
+  background: #fff;
 }
 .container {
   display: flex;
   flex-direction: column;
   /* height: 200px; */
   width: auto;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px;
   justify-content: center;
   align-items: center;
   background: #acd;
@@ -40,4 +42,16 @@ body {
   border-radius: 20px;
   text-align: center;
   font-size: 1.5rem;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-around;
+}
+button {
+  padding: 20px;
+  background-color: aquamarine;
+  font-size: medium;
+  border-radius: 10px;
 }
